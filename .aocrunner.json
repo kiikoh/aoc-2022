@@ -150,16 +150,16 @@
     },
     {
       "part1": {
-        "solved": false,
-        "result": null,
+        "solved": true,
+        "result": "12540",
         "attempts": [],
-        "time": null
+        "time": 0.136189
       },
       "part2": {
-        "solved": false,
-        "result": null,
+        "solved": true,
+        "result": "FECZELHE",
         "attempts": [],
-        "time": null
+        "time": 0.450234
       }
     },
     {
