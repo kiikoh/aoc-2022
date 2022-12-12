@@ -1,12 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/graphlib': ^2.1.8
   '@types/node': ^16.11.6
   aocrunner: ^1.6.1
   esbuild: ^0.16.1
+  graphlib: ^2.1.8
   prettier: ^2.4.1
 
+dependencies:
+  graphlib: 2.1.8
+
 devDependencies:
+  '@types/graphlib': 2.1.8
   '@types/node': 16.18.4
   aocrunner: 1.7.0
   esbuild: 0.16.1
@@ -233,6 +239,10 @@ packages:
   /@tootallnate/once/2.0.0:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
     engines: {node: '>= 10'}
+    dev: true
+
+  /@types/graphlib/2.1.8:
+    resolution: {integrity: sha512-8nbbyD3zABRA9ePoBgAl2ym8cIwKQXTfv1gaIRTdY99yEOCaHfmjBeRp+BIemS8NtOqoWK7mfzWxjNrxLK3T5w==}
     dev: true
 
   /@types/node/16.18.4:
@@ -739,6 +749,12 @@ packages:
       is-glob: 4.0.3
     dev: true
 
+  /graphlib/2.1.8:
+    resolution: {integrity: sha512-jcLLfkpoVGmH7/InMC/1hIvOPSUh38oJtGhvrOFGzioE1DZ+0YW16RgmOJhHiuWTvGiJQ9Z1Ik43JvkRPRvE+A==}
+    dependencies:
+      lodash: 4.17.21
+    dev: false
+
   /html-encoding-sniffer/3.0.0:
     resolution: {integrity: sha512-oWv4T4yJ52iKrufjnyZPkrN0CH3QnrUqdB6In1g5Fe1mia8GmF36gnfNySxoZtxD5+NmYw1EElVXiBk93UeskA==}
     engines: {node: '>=12'}
@@ -860,6 +876,10 @@ packages:
       prelude-ls: 1.1.2
       type-check: 0.3.2
     dev: true
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
 
   /mime-db/1.52.0:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
